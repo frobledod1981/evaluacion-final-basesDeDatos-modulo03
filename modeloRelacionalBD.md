@@ -123,8 +123,8 @@
 - DELETE FROM proveedor WHERE rut = '11223344';
 
 
-- INSERT INTO compra (NumeroFactura,fecha,Total,Provedor_RUT) VALUES (1234,'10-09-2024',12000,'11223344');
-- UPDATE compra SET fecha = '11-09-2024' WHERE NumeroFactura = 1234;
+- INSERT INTO compra (NumeroFactura,fecha,Total,Provedor_RUT) VALUES (1234,'2024-09-10',12000,'11223344');
+- UPDATE compra SET fecha = '2024-09-10' WHERE NumeroFactura = 1234;
 - DELETE FROM compra WHERE NumeroFactura = 1234;
 
 - INSERT INTO DetCompra(Compra_Numerofactura,ID,Cantidad,Descripcion,Unitario,Inventario_ID) Values (1234,1,4,'Salchichas',3,2);
